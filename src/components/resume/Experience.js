@@ -12,28 +12,30 @@ const Experience = () => {
       <div>
         <div className="flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2023 - 2025</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
+          <h2 className="text-4xl font-bold">Exposure</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="Intern Software Engineer"
-            subTitle="Makueni County Government - (2025 - Present)"
-            result="KENYA"
-            des="The Makueni County Government is a devolved unit of government in Kenya, established under the Constitution of Kenya 2010."
-          />
-          <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="St. Martins Maikuu Secondary School - (2024)"
-            result="KENYA"
-            des="Interned at St. Martins Maikuu, gaining experience in classroom management, lesson planning,
-            teaching strategies, and student engagement. Developed teaching strategies and contributed to curriculum development."
-          />
-          <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="KENYA"
-            des="Worked on various front-end projects, enhancing user experience and interface design."
-          />
+         <ResumeCard
+  title="Mobile & Web Applications"
+  subTitle="Syntellect AI - (2024 - Present)"
+  result="Australia"
+  des="Designed and developed multiple mobile and web applications for clients and internal projects, focusing on responsive design, seamless functionality, and user engagement."
+/>
+
+<ResumeCard
+  title="Internal Company Tools"
+  subTitle="Syntellect AI - (2024 - Present)"
+  result="USA"
+  des="Built internal tools to streamline company workflows, including dashboards, automation scripts, and management systems to improve productivity."
+/>
+
+<ResumeCard
+  title="AI Image Editing & Background Removal"
+  subTitle="Syntellect AI - (2025 - Present)"
+  result="Nepal"
+  des="Developed AI-powered image editing solutions, including background removal and image enhancement tools, helping clients create professional visual content efficiently."
+/>
+
         </div>
       </div>
       <div>
@@ -41,28 +43,29 @@ const Experience = () => {
           <p className="text-sm text-designColor tracking-[4px]">
             2024 - PRESENT{" "}
           </p>
-          <h2 className="text-4xl font-bold">Trainer Experience</h2>
+          <h2 className="text-4xl font-bold">Experience</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Secondary School Teacher"
-            subTitle="St. Martins Maikuu Secondary School (2024 - Present)"
-            result="KENYA"
-            des="Interned at St. Martins Maikuu, gaining experience in classroom management, lesson planning,
-            teaching strategies, and student engagement. Developed teaching strategies and contributed to curriculum development."
+            title="Ecommerce sites"
+            subTitle="Built Clothing Ecommerce websites"
+            result="USA"
+            des="Designed and developed e-commerce websites, focusing on user experience, responsive layouts, and seamless functionality. Contributed to website architecture, UI/UX design, and implementing features that enhance customer engagement and conversions."
           />
-          <ResumeCard
-            title="Web Developer and Instructor"
-            subTitle="FastNet Cyber Solutions (2023 - 2025)"
-            result="NAIROBI"
-            des="As a Web Developer and Instructor at FastNet Cyber Solutions, I contributed to the design and development of user-friendly web applications."
-          />
-          <ResumeCard
-            title="Software Developer and Trainer"
-            subTitle="Kingstar Secondary School (2025 - Present)"
-            result="THIKA"
-            des="As a Software Developer and Trainer at Kingstar Secondary School, I designed and developed software applications."
-          />
+         <ResumeCard
+  title="Text to Image"
+  subTitle="AI-Powered Text to Image Generator"
+  result="Syntellect AI Project"
+  des="Designed and developed an AI-powered Text-to-Image Generator that converts user input text into high-quality digital images. Implemented a responsive web interface, optimized performance, and ensured seamless user experience for creative content generation."
+/>
+
+        <ResumeCard
+  title="Chat with PDF"
+  subTitle="RAG System Project (2025 - Present)"
+  result="SenerSolutions"
+  des="Developed a PDF-based Retrieval-Augmented Generation (RAG) system that allows users to chat with documents. Implemented text extraction, chunking, vector embeddings, and AI-powered responses to provide accurate and context-aware answers from uploaded PDFs."
+/>
+
         </div>
       </div>
     </motion.div>

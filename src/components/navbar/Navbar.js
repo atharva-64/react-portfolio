@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
-        <img src={logo} alt="logo" />
+        <img src={logo} alt="logo" className='h-9' /><p>Syntellect AI</p>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
@@ -45,7 +45,7 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                I am a dedicated developer passionate about creating digital experiences that resonate with users. 
+                We am a dedicated developer passionate about creating digital experiences that resonate with users. 
                 Explore my portfolio to discover innovative solutions and creative designs that bring ideas to life.
                 </p>
               </div>

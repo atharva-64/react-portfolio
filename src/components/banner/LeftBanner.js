@@ -6,17 +6,14 @@ import Media from './Media';
 const LeftBanner = () => {
     const [text] = useTypewriter({
       words: [
-        "Professional Coder.",
-        "Full Stack Developer.",
-        "UI Designer.",
-        "Web Developer.",
-        "Software Engineer.",
-        "React Developer.",
-        "Frontend Developer.",
-        "Backend Developer.",
-        "Tech Enthusiast.",
-        "Creative Coder.",
-        "Digital Thinker.",
+        "Websites",
+        "Apps",
+        "CRMs",
+        "Database",
+        "Hosting",
+        "Frontend",
+        "Backend"
+        
       ],
       loop: true,
       typeSpeed: 20,
@@ -30,13 +27,13 @@ const LeftBanner = () => {
     return (
       <div className="w-full lgl:w-1/2 flex flex-col gap-20">
         <div className="flex flex-col gap-5">
-          <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
+          <h4 className=" text-lg font-normal">WELCOME TO OUR COMPANY</h4>
           <h1 className="text-6xl font-bold text-white">
-            Hi, I'm{" "}
-            <span className="text-designColor capitalize">Daniel Ndeto</span>
+            Hi, We're{" "}
+            <span className="text-designColor capitalize">Syntellect AI</span>
           </h1>
           <h2 className="text-4xl font-bold text-pink">
-            a <span>{text}</span>
+            We design <span>{text}</span>
             <Cursor
               cursorBlinking="false"
               cursorStyle="|*"
@@ -44,9 +41,7 @@ const LeftBanner = () => {
             />
           </h2>
           <p className="text-base font-bodyFont leading-6 tracking-wide">
-  I believe in transforming ideas into experiences that resonate. By seamlessly integrating subtle animations and intuitive design,
-  I create interfaces that captivate and guide users effortlessly. Every project is an opportunity to
-  blend creativity with robust code,ensuring that digital experiences are as delightful as they are functional.
+            Syntellect AI is a dedicated team of web design and development experts, passionate about creating modern, responsive, and AI-powered websites that help businesses grow. We specialize in building user-friendly, visually stunning, and highly functional digital experiences tailored to your brand. From concept to deployment, we ensure every website reflects innovation, creativity, and cutting-edge technology.
           </p>
         </div>
         <Media />

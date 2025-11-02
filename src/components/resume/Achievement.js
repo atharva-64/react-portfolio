@@ -13,7 +13,7 @@ const Achievement = () => {
       {/* Company Experience Section */}
       <div>
         <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2022 - 2023</p>
+          <p className="text-sm text-designColor tracking-[4px]">2023 - 2024</p>
           <h2 className="text-4xl font-bold">Company Experience</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
@@ -56,12 +56,12 @@ const Achievement = () => {
       {/* Job Experience Section */}
       <div>
         <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2023 - 2024</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2024-2025</p>
+          <h2 className="text-4xl font-bold">Work We've Done </h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Front-end Developer Role"
+            title="Front-end Development"
             subTitle="Crafted intuitive and responsive UI components."
             result="Success"
             des="Developed robust, responsive interfaces using modern technologies 
@@ -69,7 +69,7 @@ const Achievement = () => {
             application performance."
           />
           <ResumeCard
-            title="Back-end Engineering"
+            title="Backend Development"
             subTitle="Enhanced server performance and scalability."
             result="Success"
             des="Engineered high-performance API solutions and optimized data management

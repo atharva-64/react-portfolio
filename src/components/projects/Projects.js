@@ -1,5 +1,5 @@
-import React from 'react'
-import Title from '../layouts/Title'
+import React from 'react';
+import Title from '../layouts/Title';
 import { projectOne, projectTwo, projectThree } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
@@ -11,69 +11,49 @@ const Projects = () => {
     >
       <div className="flex justify-center items-center text-center">
         <Title
-          title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
-          des="My Projects"
+          title="VISIT OUR PORTFOLIO AND KEEP YOUR FEEDBACK"
+          des="More Info"
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="SCHOOL MANAGEMENT SYSTEM"
-          des="An all-inclusive system designed for academic institutions.
-          This platform streamlines student enrollment, attendance tracking,
-          grade management, and communication between staff, teachers, and students."
+          title="Background Removal Tool"
+          des="We designed a powerful background removal tool that allows users to quickly and accurately remove backgrounds from images, making them ready for e-commerce, social media, and professional presentations."
           src={projectOne}
-          githubLink="https://github.com/daniel-ndeto/school-management-system.git" // Replace with actual link
-          liveLink="https://school-management-system-hazel-eta.vercel.app" // Replace with actual link or remove if no live site
+          // liveLink="" 
+          // githubLink=""
         />
         <ProjectsCard
-          title="E-commerce Website"
-          des="A fully responsive online store offering secure payment integration,
-          efficient inventory management, and an intuitive user interface that delivers
-           a seamless shopping experience for customers."
+          title="Chat with PDF (RAG System)"
+          des="We built an intelligent Chat with PDF system using Retrieval-Augmented Generation (RAG) to enable users to query PDFs and get accurate, context-aware responses instantly."
           src={projectTwo}
-          githubLink="https://github.com/daniel-ndeto/tech-lab97-ecommerce-app.git" // Replace with actual link
-          liveLink="https://your-ecommerce-live-url.com" // Replace with actual link
+          // liveLink="" 
+          // githubLink=""
         />
         <ProjectsCard
-          title="Chatting App"
-          des="A real-time messaging application that supports one-to-one and group chats,
-          media sharing, and push notifications. Built with modern web technologies to enable
-          instantaneous communication."
+          title="Text to Image Generator"
+          des="We developed a Text to Image Generator that converts textual descriptions into high-quality images, leveraging AI technologies to support creative and marketing projects."
           src={projectThree}
-          githubLink="https://github.com/daniel-ndeto/AmigoChat-Realtime-Chat-Application.git" // Replace with actual link
-          liveLink="https://amigochat.netlify.app/" // Replace with actual link or remove if no live site
+          // liveLink="" 
+          // githubLink=""
         />
         <ProjectsCard
-          title="TRAVEL BOOKING APP"
-          des="An intuitive travel platform that simplifies the search and booking of flights,
-          hotels, and tours. Emphasizing personalization, it offers users tailored travel
-          recommendations and streamlined booking processes."
-          src={projectThree} // Consider using a different image if available
-          githubLink="https://github.com/yourusername/travel-booking-app" // Replace with actual link
-          liveLink="https://your-travel-app-live-url.com" // Replace with actual link
+          title="Clothing E-commerce Website"
+          des="We created a fully responsive and user-friendly clothing e-commerce website with secure payment integration, inventory management, and an intuitive shopping experience."
+          src={projectOne}
+          // liveLink="" 
+          // githubLink=""
         />
         <ProjectsCard
-          title="COLLEGE MANAGEMENT SYSTEM"
-          des="A robust portal tailored for higher education institutions.
-          It facilitates course scheduling, faculty coordination, student information
-          management, and streamlines day-to-day administrative tasks."
-          src={projectOne} // Consider using a different image if available
-          githubLink="https://github.com/yourusername/college-management-system" // Replace with actual link
-          liveLink="#" // Replace with actual link or remove if no live site
-        />
-        <ProjectsCard
-          title="LMS SYSTEM"
-          des="A feature-rich Learning Management System (LMS) designed to enhance
-           online education. It offers interactive course
-           materials, real-time progress tracking, assessments, and comprehensive reporting
-           for educators."
-          src={projectTwo} // Consider using a different image if available
-          githubLink="https://github.com/yourusername/lms-system" // Replace with actual link
-          liveLink="https://your-lms-live-url.com" // Replace with actual link
+          title="Internal Company Chatbot"
+          des="We designed an internal company chatbot to improve team communication, automate repetitive tasks, and provide instant information access to employees."
+          src={projectTwo}
+          // liveLink="" 
+          // githubLink=""
         />
       </div>
     </section>
   );
 }
 
-export default Projects
+export default Projects;
