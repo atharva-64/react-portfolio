@@ -13,14 +13,14 @@ const RightBanner = () => {
         alt="bannerImg"
       /> */}
 
-            <video
+            {/* <video
         className="w-[200px] h-[200px] lgl:w-[500px] lgl:h-[380px] z-10 rounded-lg object-cover"
         src={bannerImg}
         autoPlay
         loop
         muted
         playsInline
-      />
+      /> */}
 
 
       
