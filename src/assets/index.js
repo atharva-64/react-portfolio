@@ -2,7 +2,7 @@
 import logo from "./images/logo.png";
 
 // Importing the banner image used in the application
-import bannerImg from "./images/bannerImg.png";
+import bannerImg from "./images/bannerImg.mp4";
 
 // Importing images for different projects
 import projectOne from "./images/projects/projectOne.jpg";

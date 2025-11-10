@@ -26,7 +26,7 @@ const ContactLeft = () => {
           experiences that are both innovative and reliable.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+016634981</span>
+          Phone: <span className="text-lightText">9860455788</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Email:{" "}
